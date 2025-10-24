@@ -22,9 +22,7 @@ Ich möchte lernen, wie man mit Daten aus einer API arbeitet und mein Wissen im 
 - [X] Arbeitspaket 3: Schreiben Sie ersten JS-Code als *proof of concept* (bspw. Meldung bei Klick auf Knopf-Element)
 
 ✍️ Heute habe ich... (50-100 Wörter)
-Heute habe ich mich für Sound Cloud entschieden. Ich habe aber gemerkt das man bei Sound Cloud nicht direkt zur API ID kommt. Ich musste mit einem Bot schreiben und warte jetzt auf die Rückmeldung Ich wollte mit Html anfangen, konnte leider nichts machen, da ich die API haben wollte.
-
-
+Heute habe ich mich für Sound Cloud entschieden. Ich habe aber gemerkt das man bei Sound Cloud nicht direkt zur API ID kommt. Ich musste mit einem Bot schreiben und warte jetzt auf die Rückmeldung. Ich habe aber inzwischen einbisschen mit Html css gearbeitet, da ich wenigstens etwas gemacht habe.
 ## Skizze
 ![SkizzeLP7](https://github.com/user-attachments/assets/cfcf266c-7aa5-4814-91cb-694e3728569a)
 
@@ -42,5 +40,6 @@ Heute habe ich mich für Sound Cloud entschieden. Ich habe aber gemerkt das man 
 ✍️ Heute habe ich... (50-100 Wörter)
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
 
 
