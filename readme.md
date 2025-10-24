@@ -5,8 +5,15 @@
 ## Grob-Planung
 
 1. Für welche API möchten Sie ein eigenes *front end* erstellen?
-2. Welche groben Funktionalitäten soll Ihr *front end* zur Verfügung stellen?
-3. Was möchten Sie insbesondere dabei lernen oder üben?
+Ich möchte ein eigenes Frontend für die Spotify API erstellen. Diese API erlaubt den Zugriff auf Songs, Alben, Künstler, Playlists und Benutzerdaten von Spotify.
+
+3. Welche groben Funktionalitäten soll Ihr *front end* zur Verfügung stellen?
+Songs, Künstler und Alben über eine Suchleiste finden können
+Details zu einem Song oder Künstler anzeigen (z. B. Albumcover, Dauer, Genre, Popularität)
+Eine eigene Playlist-Ansicht anzeigen (z. B. gespeicherte Lieder oder empfohlene Songs)
+
+5. Was möchten Sie insbesondere dabei lernen oder üben?
+Ich möchte lernen, wie man mit Daten aus einer API arbeitet und mein Wissen im Programmieren und im Umgang mit Webtechnologien erweitern.
 
 ## 24.10.
 
@@ -28,3 +35,4 @@
 ✍️ Heute habe ich... (50-100 Wörter)
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
