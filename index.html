@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sound by Abi</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soundify by Abi</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body class="welcome">
-    <div class="welcome-conatiner">
-        <div class ="logo-large">S</div>
-        <h1>Sound by Abi</h1>
-        <p>Erlebe die besten Tracks von Drake im SoundCloud</p>
-        <a href="player.html" class="btn start-btn">Drake hören</a>
 
-    </div>
+ 
+  <header class="navbar">
+  
+    <h2 class="logo"> Soundify</h2>
+
     
+    <div class="nav-center">
+      <input id="artistInput" type="text" placeholder="Künstler eingeben..." />
+      <button id="searchBtn">Suchen</button>
+    </div>
+
+
+    <nav>
+      <a href="#">Start</a>
+      <a href="über.html">Über</a>
+      <a href="#">Kontakt</a>
+    </nav>
+  </header>
+
+  
+  <div class="overlay"></div>
+
+  
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Willkommen bei <span>Soundify</span></h1>
+      <p>Erlebe Soundtracks, indem du die besten Alben deiner Lieblingskünstler hörst.</p>
+    </div>
+  </section>
+
+ 
+  <main id="results" class="album-grid"></main>
+
+  
+  <footer>
+    <p> 2025 Soundify by Amar powered by Spotify API</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
