@@ -33,13 +33,21 @@ Heute habe ich mich für Sound Cloud entschieden. Ich habe aber gemerkt das man 
 ## 31.10.
 
 - [ ] Auf die Rückmeldung warten falls ich sie bekomme.(sollte der user die lieder abspielen können)(falls nicht fang ich dann mit spotify an, sie haben eine API)
-- [ ] Die Wilkommensseite sollte nicht langweilig aussehen, es sollte Bilder enthalten. Wie Sound Cloud/ Spotify persönlich.
+- [X] Die Wilkommensseite sollte nicht langweilig aussehen, es sollte Bilder enthalten. Wie Sound Cloud/ Spotify persönlich.
 - [ ] Man sollte das lied stoppen können und wieder weiter abspielen.
 - [ ] man sollte auf das nächste lied wechseln können.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
+eute musste ich leider das Thema wechseln, da SoundCloud keine API mehr verteilt. Ich habe mich für Spotify entschieden. Ich habe die Willkommensseite fertig programmiert, die Seite «Über» habe ich auch fertig programmiert. Ich habe der Website einen eigenen Namen gegeben, sie heisst Soundify. Mit der heutigen Arbeit bin ich sehr zufrieden.
+
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+- [ ] Die Kontakt Seite sollte fertig programmiert werden. (Email, Insta etc.)
+- [ ] Die über Seite ein bisschen besser gestalten. Das leuchtend grünne entfernen.
+- [ ] Eine erste Seite von einem Künstler.(die Seite enthält, Name vom Künstler, monatliche Hörer/innen, sein grösstes Album sollte verlinkt werden)
+- [ ] Album von Künstler sollte verlinkt werden.(Nutzer sollte auf Spotify das Album hören können)
+
 
 
 
