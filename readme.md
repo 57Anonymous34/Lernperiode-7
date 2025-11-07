@@ -41,7 +41,9 @@ Heute habe ich mich für Sound Cloud entschieden. Ich habe aber gemerkt das man 
 
 eute musste ich leider das Thema wechseln, da SoundCloud keine API mehr verteilt. Ich habe mich für Spotify entschieden. Ich habe die Willkommensseite fertig programmiert, die Seite «Über» habe ich auch fertig programmiert. Ich habe der Website einen eigenen Namen gegeben, sie heisst Soundify. Mit der heutigen Arbeit bin ich sehr zufrieden.
 
-☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+☝️ Vergessen Sie nicht, Ihren Code auf github 
+
+## 07.11
 
 - [X] Die Kontakt Seite sollte fertig programmiert werden. (Email, Insta etc.)
 - [X] Die über Seite ein bisschen besser gestalten. Das leuchtend grünne entfernen.
@@ -53,6 +55,23 @@ eute musste ich leider das Thema wechseln, da SoundCloud keine API mehr verteilt
 Heute bin ich gar nicht zufrieden mit meiner Arbeit. Ich habe die über-seite verbessert und noch die kontakt-seite fertig programmiert. Das Problem hatte ich bei der API. Ich wollte eine APP erstellen wie es bei der Dokumentation steht, ich konnte aber es nicht erstellen. Ich habe alles versucht. Ich hoffe ich kann das nächste Woche mit dem Herr Colic anschauen.
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+## 14.11
+
+- [ ] Eine APP bei Developers erstellen.
+- [ ] API mit meinem Projekt verbinden
+- [ ] Nutzer sollte auf dem ALbumlink drauf klicken können.
+- [ ] Der Nutzer sollte auf Spotify gebracht werden.
+
+✍️ Heute habe ich... (50-100 Wörter)
+
+
+
+☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+
+
+
 
 
 
