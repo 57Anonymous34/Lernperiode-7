@@ -43,10 +43,19 @@ eute musste ich leider das Thema wechseln, da SoundCloud keine API mehr verteilt
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
 
-- [ ] Die Kontakt Seite sollte fertig programmiert werden. (Email, Insta etc.)
-- [ ] Die über Seite ein bisschen besser gestalten. Das leuchtend grünne entfernen.
+- [X] Die Kontakt Seite sollte fertig programmiert werden. (Email, Insta etc.)
+- [X] Die über Seite ein bisschen besser gestalten. Das leuchtend grünne entfernen.
 - [ ] Eine erste Seite von einem Künstler.(die Seite enthält, Name vom Künstler, monatliche Hörer/innen, sein grösstes Album sollte verlinkt werden)
 - [ ] Album von Künstler sollte verlinkt werden.(Nutzer sollte auf Spotify das Album hören können)
+
+✍️ Heute habe ich... (50-100 Wörter)
+
+Heute bin ich gar nicht zufrieden mit meiner Arbeit. Ich habe die über-seite verbessert und noch die kontakt-seite fertig programmiert. Das Problem hatte ich bei der API. Ich wollte eine APP erstellen wie es bei der Dokumentation steht, ich konnte aber es nicht erstellen. Ich habe alles versucht. Ich hoffe ich kann das nächste Woche mit dem Herr Colic anschauen.
+
+☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+
+
 
 
 
