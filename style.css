@@ -255,18 +255,21 @@ footer {
 .about-container {
   max-width: 800px;
   text-align: center;
-  background: rgba(0,0,0,0.5);
-  padding: 50px;
-  border-radius: 20px;
-  box-shadow: 0 0 25px rgba(29, 185, 84, 0.4);
+  background: rgba(0, 0, 0, 0.65);
+  padding: 50px 40px;
+  border-radius: 14px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
   animation: fadeInUp 1.5s ease;
 }
 
+
 .about-container h1 {
-  color: #1DB954;
+  color: #ffffff;
   font-size: 2.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  font-weight: 600;
 }
+
 
 .about-container p {
   color: #e0e0e0;
@@ -275,3 +278,65 @@ footer {
   margin-bottom: 20px;
 }
 
+
+
+
+
+
+/* Kontaktseite */
+.contact-section {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1511379938547-c1f69419868d') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  color: #fff;
+}
+
+.contact-container {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.contact-info a {
+  color: #1DB954;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #1DB954;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #17a648;
+}
