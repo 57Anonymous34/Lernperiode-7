@@ -39,7 +39,7 @@ Heute habe ich mich für Sound Cloud entschieden. Ich habe aber gemerkt das man 
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
-eute musste ich leider das Thema wechseln, da SoundCloud keine API mehr verteilt. Ich habe mich für Spotify entschieden. Ich habe die Willkommensseite fertig programmiert, die Seite «Über» habe ich auch fertig programmiert. Ich habe der Website einen eigenen Namen gegeben, sie heisst Soundify. Mit der heutigen Arbeit bin ich sehr zufrieden.
+Heute musste ich leider das Thema wechseln, da SoundCloud keine API mehr verteilt. Ich habe mich für Spotify entschieden. Ich habe die Willkommensseite fertig programmiert, die Seite «Über» habe ich auch fertig programmiert. Ich habe der Website einen eigenen Namen gegeben, sie heisst Soundify. Mit der heutigen Arbeit bin ich sehr zufrieden.
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github 
 
@@ -60,14 +60,32 @@ Heute bin ich gar nicht zufrieden mit meiner Arbeit. Ich habe die über-seite ve
 
 - [ ] Eine APP bei Developers erstellen.
 - [ ] API mit meinem Projekt verbinden
-- [ ] Nutzer sollte auf dem ALbumlink drauf klicken können.
-- [ ] Der Nutzer sollte auf Spotify gebracht werden.
+- [X] Im Postman testen, ob das mit dem API überhaupt funktioniert.
+- [X] Mein Code mit der API verbinden.
+
+✍️ Heute habe ich... (50-100 Wörter)
+
+Heute habe ich wieder an meinem Spotify Projekt gearbeitet. Ich fand es einfach zu kompliziert, deshalb habe ich zum zweiten Mal das Projekt geändert. Mein neues Projekt wird etwas mit Kryptos sein. Man kann die Preise von einer Zeitspanne von 24H bis zu 1 Jahr anzeigen. Ich finde das neue Projekt viel einfacher.
+
+☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+
+
+## 21.11
+
+- [ ] Beim Öffnen der Webseite soll eine übersichtliche Tabelle erscheinen, die die wichtigsten Kryptowährungen (z. B. Bitcoin, Ethereum, Solana etc.) zeigt. Dazu gehören Preis, Marktkapitalisierung und 24h Veränderung.
+- [ ] Mehrere Kryptowährungen hinzufügen. Wie bei Bitcoin sollte das Diagramm angezeigt werden.
+- [ ] Überseite programmieren, erklären warum ich dieses Projekt programmiert habe(<---Beispiel).
+- [ ] Eine Kontaktseite erstellen, auf der der Nutzer Links zu meinem GitHub, meiner E-Mail etc. findet.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
 
-
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+
+
+
 
 
 
