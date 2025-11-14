@@ -61,8 +61,7 @@ Heute bin ich gar nicht zufrieden mit meiner Arbeit. Ich habe die über-seite ve
 - [ ] Eine APP bei Developers erstellen.
 - [ ] API mit meinem Projekt verbinden
 - [X] Im Postman testen, ob das mit dem API überhaupt funktioniert.
-- [X] Mein Code mit der API verbinden.
-
+- [X] Erfolgreiche API-Requests in meinem Code einbauen.
 ✍️ Heute habe ich... (50-100 Wörter)
 
 Heute habe ich wieder an meinem Spotify Projekt gearbeitet. Ich fand es einfach zu kompliziert, deshalb habe ich zum zweiten Mal das Projekt geändert. Mein neues Projekt wird etwas mit Kryptos sein. Man kann die Preise von einer Zeitspanne von 24H bis zu 1 Jahr anzeigen. Ich finde das neue Projekt viel einfacher.
@@ -82,6 +81,7 @@ Heute habe ich wieder an meinem Spotify Projekt gearbeitet. Ich fand es einfach 
 
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
 
 
 
