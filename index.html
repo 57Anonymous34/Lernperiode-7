@@ -1,51 +1,35 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Soundify by Abi</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Krypto Preis Verlauf</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="welcome">
+<body>
 
- 
-  <header class="navbar">
-  
-    <h2 class="logo"> Soundify</h2>
+<h1>Krypto Preis Verlauf</h1>
 
-    
-    <div class="nav-center">
-      <input id="artistInput" type="text" placeholder="Künstler eingeben..." />
-      <button id="searchBtn">Suchen</button>
-    </div>
+<div class="search-box">
+    <input id="coinInput" type="text" placeholder="z. B. bitcoin">
+    <button onclick="ladeDiagramm('365')">Suchen</button>
+</div>
 
 
-    <nav>
-      <a href="#">Start</a>
-      <a href="über.html">Über</a>
-      <a href="kontakt.html">Kontakt</a>
-    </nav>
-  </header>
+<div class="time-buttons">
+    <button onclick="ladeDiagramm('1')">24H</button>
+    <button onclick="ladeDiagramm('7')">7D</button>
+    <button onclick="ladeDiagramm('30')">1M</button>
+    <button onclick="ladeDiagramm('90')">3M</button>
+    <button onclick="ladeDiagramm('365')">1Y</button>
+   
+</div>
 
-  
-  <div class="overlay"></div>
+<div class="chart-container">
+    <canvas id="chart" width="450" height="260"></canvas>
+</div>
 
-  
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Willkommen bei <span>Soundify</span></h1>
-      <p>Erlebe Soundtracks, indem du die besten Alben deiner Lieblingskünstler hörst.</p>
-    </div>
-  </section>
+<script src="script.js"></script>
 
- 
-  <main id="results" class="album-grid"></main>
-
-  
-  <footer>
-    <p> 2025 Soundify by Amar powered by Spotify API</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
