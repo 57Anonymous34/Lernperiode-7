@@ -2,7 +2,7 @@ let chart;
 
 function ladeTabelle() {
     const eingabe = document.getElementById("coinInput").value.toLowerCase();
-    const apiKey = "CG-PBmQN1c2yQRaG3hS7VwDMnX2";
+    const apiKey = "";
 
     let url = "";
 
