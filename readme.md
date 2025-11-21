@@ -72,15 +72,35 @@ Heute habe ich wieder an meinem Spotify Projekt gearbeitet. Ich fand es einfach 
 
 ## 21.11
 
-- [ ] Beim Öffnen der Webseite soll eine übersichtliche Tabelle erscheinen, die die wichtigsten Kryptowährungen (z. B. Bitcoin, Ethereum, Solana etc.) zeigt. Dazu gehören Preis, Marktkapitalisierung und 24h Veränderung.
-- [ ] Mehrere Kryptowährungen hinzufügen. Wie bei Bitcoin sollte das Diagramm angezeigt werden.
-- [ ] Überseite programmieren, erklären warum ich dieses Projekt programmiert habe(<---Beispiel).
-- [ ] Eine Kontaktseite erstellen, auf der der Nutzer Links zu meinem GitHub, meiner E-Mail etc. findet.
+- [X] Beim Öffnen der Webseite soll eine übersichtliche Tabelle erscheinen, die die wichtigsten Kryptowährungen (z. B. Bitcoin, Ethereum, Solana etc.) zeigt. Dazu gehören Preis, Marktkapitalisierung und 24h Veränderung.
+- [X] Mehrere Kryptowährungen hinzufügen. Wie bei Bitcoin sollte das Diagramm angezeigt werden.
+- [X] Überseite programmieren, erklären warum ich dieses Projekt programmiert habe(<---Beispiel).
+- [X] Eine Kontaktseite erstellen, auf der der Nutzer Links zu meinem GitHub, meiner E-Mail etc. findet.
+
+✍️ Heute habe ich... (50-100 Wörter)
+
+Heute habe ich weiter an meinem neuen Projekt gearbeitet. Auf der Startseite ist jetzt eine Tabelle mit den Top-10-Kryptowährungen vorhanden. Der Nutzer kann in der Suchleiste die Währung eingeben oder direkt in der Tabelle darauf klicken. Ich habe noch zwei Seiten hinzugefügt: eine Über-Seite, auf der ich das Projekt ein bisschen vorstelle, und eine Kontakt-Seite, auf der man mich über GitHub oder auch per E-Mail kontaktieren kann.
+
+☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+
+## 28.11
+
+- [ ]  Noch mehr Kryptowährungen hinzufügen.
+- [ ] Die Tabelle soll in einem festen Fenster angezeigt werden und bei vielen Einträgen intern scrollen, damit die Seite übersichtlich bleibt.
+- [ ] Die Navigation und die Buttons sollen optisch verbessert werden (z. B. Hover-Effekte, bessere Abstände, Farben), damit die Webseite moderner wirkt.
+- [ ] Der Diagramm-Bereich soll übersichtlicher gestaltet werden. Dazu gehören kleinere Anpassungen wie bessere Abstände, deutlicher sichtbare Linien oder eine klarere Überschrift, damit der Preisverlauf moderner und leichter lesbar wirkt.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
 
+
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+
+
+
+
 
 
 
