@@ -199,3 +199,45 @@ tr:hover {
 .contact-box a:hover {
     text-decoration: underline;
 }
+
+
+
+/* Fenster um die Tabelle */
+.table-window {
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+/* Der scrollbare Bereich */
+.table-container {
+    max-height: 450px;   /* 🔥 Größe fix – scrollt intern */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Scrollbar schöner */
+.table-container::-webkit-scrollbar {
+    width: 8px;
+}
+.table-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+
+
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+

@@ -7,35 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<body>
+
 <nav class="nav">
     <a href="index.html">Startseite</a>
     <a href="über.html">Über das Projekt</a>
     <a href="kontakt.html">Kontakt</a>
 </nav>
-<body>
 
 <h1>Krypto Preis Verlauf</h1>
 
 <div class="search-box">
-   <input id="coinInput" type="text" placeholder="z. B. bitcoin" oninput="eingabeGeändert()">
-
+    <input id="coinInput" type="text" placeholder="z. B. bitcoin" oninput="eingabeGeändert()">
     <button onclick="ladeTabelle(); ladeDiagramm('365')">Suchen</button>
 </div>
 
-<div class="table-container">
+<!-- 🔥 Tabelle in scrollbarem Fenster -->
+<div class="table-window">
     <h2>Top Kryptowährungen</h2>
 
-    <table id="cryptoTable">
-        <thead>
-            <tr>
-                <th>Coin</th>
-                <th>Preis (USD)</th>
-                <th>Marktkapitalisierung</th>
-                <th>24h %</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <div class="table-container">
+        <table id="cryptoTable">
+            <thead>
+                <tr>
+                    <th>Coin</th>
+                    <th>Preis (USD)</th>
+                    <th>Marktkapitalisierung</th>
+                    <th>24h %</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
 </div>
 
 <div class="time-buttons">
@@ -51,12 +54,6 @@
 </div>
 
 <script src="script.js"></script>
+
 </body>
-
-
-
-
-
-
-
 </html>
