@@ -86,16 +86,27 @@ Heute habe ich weiter an meinem neuen Projekt gearbeitet. Auf der Startseite ist
 
 ## 28.11
 
-- [ ]  Noch mehr Kryptowährungen hinzufügen.
-- [ ] Die Tabelle soll in einem festen Fenster angezeigt werden und bei vielen Einträgen intern scrollen, damit die Seite übersichtlich bleibt.
+- [X]  Noch mehr Kryptowährungen hinzufügen.
+- [X] Die Tabelle soll in einem festen Fenster angezeigt werden und bei vielen Einträgen intern scrollen, damit die Seite übersichtlich bleibt.
 - [ ] Die Navigation und die Buttons sollen optisch verbessert werden (z. B. Hover-Effekte, bessere Abstände, Farben), damit die Webseite moderner wirkt.
 - [ ] Der Diagramm-Bereich soll übersichtlicher gestaltet werden. Dazu gehören kleinere Anpassungen wie bessere Abstände, deutlicher sichtbare Linien oder eine klarere Überschrift, damit der Preisverlauf moderner und leichter lesbar wirkt.
 
 ✍️ Heute habe ich... (50-100 Wörter)
-
+Heute habe ich weitere Kryptowährungen hinzugefügt. Es sind jetzt 50 Währungen vorhanden. Da so viele Kryptowährungen vorhanden sind, habe ich die Tabelle zusätzlich in ein Fenster eingefügt, in dem man scrollen kann, ohne dass sich die Größe der Tabelle ändert. Die anderen Arbeitspakette konnte ich leider nicht lösen, da es bei mir ein Fehler gab.
 
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+
+## 12.12
+
+- [ ] Die Navigation und die Buttons sollen optisch verbessert werden (z. B. Hover-Effekte, bessere Abstände, Farben), damit die Webseite moderner wirkt.
+- [ ] Der Diagramm-Bereich soll übersichtlicher gestaltet werden. Dazu gehören kleinere Anpassungen wie bessere Abstände, deutlicher sichtbare Linien oder eine klarere Überschrift, damit der Preisverlauf moderner und leichter lesbar wirkt.
+- [ ] Eine Such- und Filterfunktion für die Kryptowährungen implementieren, damit Nutzer schnell bestimmte Währungen finden können.
+- [ ] Die Über- und Kontakt-Seite besser gestalten. Sieht ein bisschen leer aus.(Bilder, andere Farben etc.)
+
+
+
 
 
 
