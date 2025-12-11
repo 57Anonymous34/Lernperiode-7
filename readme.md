@@ -100,10 +100,29 @@ Heute habe ich weitere Kryptowährungen hinzugefügt. Es sind jetzt 50 Währunge
 
 ## 12.12
 
-- [ ] Die Navigation und die Buttons sollen optisch verbessert werden (z. B. Hover-Effekte, bessere Abstände, Farben), damit die Webseite moderner wirkt.
-- [ ] Der Diagramm-Bereich soll übersichtlicher gestaltet werden. Dazu gehören kleinere Anpassungen wie bessere Abstände, deutlicher sichtbare Linien oder eine klarere Überschrift, damit der Preisverlauf moderner und leichter lesbar wirkt.
-- [ ] Eine Such- und Filterfunktion für die Kryptowährungen implementieren, damit Nutzer schnell bestimmte Währungen finden können.
-- [ ] Die Über- und Kontakt-Seite besser gestalten. Sieht ein bisschen leer aus.(Bilder, andere Farben etc.)
+- [X] Die Navigation und die Buttons sollen optisch verbessert werden (z. B. Hover-Effekte, bessere Abstände, Farben), damit die Webseite moderner wirkt.
+- [X] Der Diagramm-Bereich soll übersichtlicher gestaltet werden. Dazu gehören kleinere Anpassungen wie bessere Abstände, deutlicher sichtbare Linien oder eine klarere Überschrift, damit der Preisverlauf moderner und leichter lesbar wirkt.
+- [X] Eine Such- und Filterfunktion für die Kryptowährungen implementieren, damit Nutzer schnell bestimmte Währungen finden können.
+- [X] Die Über- und Kontakt-Seite besser gestalten. Sieht ein bisschen leer aus.(Bilder, andere Farben etc.)
+
+✍️ Heute habe ich... (50-100 Wörter)
+
+Heute habe ich endlich einen Filter programmiert. Der Benutzer kann nun bestimmte Währungen finden, auch wenn er den Namen nicht weiß, dafür aber den ungefähren Preis oder ob sie steigen oder fallen. Außerdem wurde das Diagramm verbessert: Der Benutzer kann die Daten jetzt deutlich besser lesen, wenn er mit dem Mauszeiger darüber fährt.
+
+☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
+
+## 19.12
+
+- [ ] Ein Logo für die Webseite.(z.B. ein bitcoin)
+- [ ] Die gleiche Farbe wie das Logo verwänden, für Buttons etc. damit die Webseite nicht so langweilig mit nur weiss aussieht.
+- [ ] Es gibt ein Button für den Benutzer der die Website hell oder dunkel auswählen kann.
+
+✍️ Heute habe ich... (50-100 Wörter)
+
+
+
+☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
 
 
 
