@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Krypto Preis Verlauf</title>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,12 +18,36 @@
 
 <h1>Krypto Preis Verlauf</h1>
 
+<!-- 🔍 Suchfeld -->
 <div class="search-box">
     <input id="coinInput" type="text" placeholder="z. B. bitcoin" oninput="eingabeGeändert()">
-    <button onclick="ladeTabelle(); ladeDiagramm('365')">Suchen</button>
+    <button onclick="ladeTabelle(); ladeDiagramm(365)">Suchen</button>
 </div>
 
-<!-- 🔥 Tabelle in scrollbarem Fenster -->
+<!-- 🔽 Live-Suche Dropdown -->
+<div id="searchResults"></div>
+
+<!-- 🔎 Filter -->
+<div class="filter-box">
+    <input id="filterPreisMin" type="number" placeholder="Min. Preis ($)" oninput="ladeTabelle()">
+    <input id="filterPreisMax" type="number" placeholder="Max. Preis ($)" oninput="ladeTabelle()">
+
+    <select id="filterChange" onchange="ladeTabelle()">
+        <option value="">24h Veränderung</option>
+        <option value="pos">Nur positiv</option>
+        <option value="neg">Nur negativ</option>
+    </select>
+
+    <select id="sortierung" onchange="ladeTabelle()">
+        <option value="">Sortieren nach...</option>
+        <option value="price_desc">Preis ↓</option>
+        <option value="price_asc">Preis ↑</option>
+        <option value="market_desc">Market Cap ↓</option>
+        <option value="market_asc">Market Cap ↑</option>
+    </select>
+</div>
+
+<!-- 📊 Tabelle -->
 <div class="table-window">
     <h2>Top Kryptowährungen</h2>
 
@@ -41,16 +66,18 @@
     </div>
 </div>
 
+<!-- Buttons für Zeiträume -->
 <div class="time-buttons">
-    <button onclick="ladeDiagramm('1')">24H</button>
-    <button onclick="ladeDiagramm('7')">7D</button>
-    <button onclick="ladeDiagramm('30')">1M</button>
-    <button onclick="ladeDiagramm('90')">3M</button>
-    <button onclick="ladeDiagramm('365')">1Y</button>
+    <button onclick="ladeDiagramm(1)">24H</button>
+    <button onclick="ladeDiagramm(7)">7D</button>
+    <button onclick="ladeDiagramm(30)">1M</button>
+    <button onclick="ladeDiagramm(90)">3M</button>
+    <button onclick="ladeDiagramm(365)">1Y</button>
 </div>
 
+<!-- Diagramm -->
 <div class="chart-container">
-    <canvas id="chart" width="450" height="260"></canvas>
+    <canvas id="chart"></canvas>
 </div>
 
 <script src="script.js"></script>
