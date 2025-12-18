@@ -10,24 +10,33 @@
 
 <body>
 
+
 <nav class="nav">
+
+    <div class="logo">
+        <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=029" alt="Logo">
+        <span>Krypto</span>
+    </div>
+
     <a href="index.html">Startseite</a>
     <a href="über.html">Über das Projekt</a>
     <a href="kontakt.html">Kontakt</a>
+
+    <button id="themeToggle" title="Hell / Dunkel wechseln">🌙</button>
 </nav>
 
 <h1>Krypto Preis Verlauf</h1>
 
-<!-- 🔍 Suchfeld -->
+
 <div class="search-box">
     <input id="coinInput" type="text" placeholder="z. B. bitcoin" oninput="eingabeGeändert()">
     <button onclick="ladeTabelle(); ladeDiagramm(365)">Suchen</button>
 </div>
 
-<!-- 🔽 Live-Suche Dropdown -->
+
 <div id="searchResults"></div>
 
-<!-- 🔎 Filter -->
+
 <div class="filter-box">
     <input id="filterPreisMin" type="number" placeholder="Min. Preis ($)" oninput="ladeTabelle()">
     <input id="filterPreisMax" type="number" placeholder="Max. Preis ($)" oninput="ladeTabelle()">
@@ -47,7 +56,7 @@
     </select>
 </div>
 
-<!-- 📊 Tabelle -->
+
 <div class="table-window">
     <h2>Top Kryptowährungen</h2>
 
@@ -66,7 +75,7 @@
     </div>
 </div>
 
-<!-- Buttons für Zeiträume -->
+
 <div class="time-buttons">
     <button onclick="ladeDiagramm(1)">24H</button>
     <button onclick="ladeDiagramm(7)">7D</button>
@@ -75,7 +84,7 @@
     <button onclick="ladeDiagramm(365)">1Y</button>
 </div>
 
-<!-- Diagramm -->
+
 <div class="chart-container">
     <canvas id="chart"></canvas>
 </div>

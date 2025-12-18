@@ -1,4 +1,19 @@
-/* Allgemeines Layout */
+
+
+:root {
+    --primary: #f7931a;   
+    --dark-bg: #121212;
+    --dark-box: #1e1e1e;
+    --light-bg: #f3f3f3;
+}
+
+
+
+
+
+
+
+
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -7,7 +22,7 @@ body {
     margin: 0;
 }
 
-/* Navigation – modernisiert */
+
 .nav {
     display: flex;
     justify-content: center;
@@ -38,7 +53,7 @@ body {
     box-shadow: 0 3px 10px rgba(0,0,0,0.15);
 }
 
-/* SUCHBOX */
+
 .search-box {
     margin-bottom: 25px;
 }
@@ -61,7 +76,7 @@ body {
     cursor: pointer;
 }
 
-/* Live-Suche Dropdown */
+
 #searchResults {
     width: 330px;
     margin: 0 auto;
@@ -83,7 +98,7 @@ body {
     background: #eee;
 }
 
-/* Filter */
+
 .filter-box {
     margin: 20px auto;
     display: flex;
@@ -101,7 +116,7 @@ body {
     width: 180px;
 }
 
-/* Tabelle */
+
 .table-window {
     width: 90%;
     margin: 30px auto;
@@ -139,7 +154,7 @@ tr:hover {
 .positive { color: green; }
 .negative { color: red; }
 
-/* Zeit-Buttons */
+
 .time-buttons {
     display: flex;
     justify-content: center;
@@ -155,7 +170,7 @@ tr:hover {
     cursor: pointer;
 }
 
-/* Diagramm */
+
 .chart-container {
     max-width: 700px;
     margin: 30px auto;
@@ -173,7 +188,7 @@ tr:hover {
 
 
 
-/* Über-Seite Modernisierung */
+
 .about-hero {
     width: 80%;
     margin: 30px auto;
@@ -228,4 +243,144 @@ tr:hover {
 .learn-card img {
     width: 70px;
     margin-bottom: 10px;
+}
+
+
+
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #222;
+}
+
+.logo img {
+    width: 32px;
+}
+
+
+.nav {
+    border-bottom: 4px solid var(--primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body.dark {
+    background: var(--dark-bg); 
+    color: white;
+}
+
+
+body.dark .nav,
+body.dark .table-window,
+body.dark .chart-container,
+body.dark .filter-box {
+    background: var(--dark-box);
+}
+
+
+body.dark .nav a {
+    color: white;
+}
+
+body.dark .nav a:hover {
+    color: var(--primary);
+}
+
+
+body.dark table {
+    color: white;
+}
+
+body.dark thead {
+    background: #2a2a2a; 
+}
+
+body.dark th {
+    color: white;
+}
+
+body.dark td {
+    color: white;
+}
+
+body.dark tr {
+    border-bottom: 1px solid #333;
+}
+
+body.dark tr:hover {
+    background: #2a2a2a;
+}
+
+
+body.dark input,
+body.dark select {
+    background: #2a2a2a;
+    color: white;
+    border: 1px solid #444;
+}
+
+body.dark input::placeholder {
+    color: #aaa;
+}
+
+
+body.dark .search-box button,
+body.dark .time-buttons button {
+    background: var(--primary);
+    color: white;
+}
+
+body.dark .search-box button:hover,
+body.dark .time-buttons button:hover {
+    background: #d97d12;
+}
+
+
+body.dark .filter-box {
+    border-radius: 12px;
+    padding: 15px;
+}
+
+
+
+
+
+
+body.dark .about-hero,
+body.dark .about-info-box,
+body.dark .learn-card,
+body.dark .contact-card {
+    background: #1e1e1e;
+    color: white;
+}
+
+body.dark .about-hero h2,
+body.dark .about-info-box h2,
+body.dark .learn-card h3,
+body.dark .contact-card h3 {
+    color: white;
+}
+
+body.dark .about-hero p,
+body.dark .about-info-box p,
+body.dark .learn-card p,
+body.dark .contact-card p {
+    color: #ddd;
 }

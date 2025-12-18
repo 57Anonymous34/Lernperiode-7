@@ -1,9 +1,9 @@
 let chart;
-let alleCoins = []; // 🔥 lokaler Cache für Coins (1× laden, dann offline filtern)
+let alleCoins = []; 
 
-/* Kryptowährungsliste nur 1× laden */
+
 async function ladeCoinsVonAPI() {
-    if (alleCoins.length > 0) return; // schon geladen → erneut nicht nötig
+    if (alleCoins.length > 0) return; 
 
     const url = `https://api.coingecko.com/api/v3/coins/markets
         ?vs_currency=usd
@@ -16,9 +16,9 @@ async function ladeCoinsVonAPI() {
     alleCoins = await res.json();
 }
 
-/* Tabelle laden + filtern */
+
 async function ladeTabelle() {
-    await ladeCoinsVonAPI(); // API nur beim ersten Mal laden
+    await ladeCoinsVonAPI(); 
 
     const eingabe = document.getElementById("coinInput").value.toLowerCase();
 
@@ -27,10 +27,10 @@ async function ladeTabelle() {
     const changeFilter = document.getElementById("filterChange").value;
     const sortOption = document.getElementById("sortierung").value;
 
-    /* Ausgangsdaten */
+    
     let daten = [...alleCoins];
 
-    /* Suchfilter */
+    
     if (eingabe !== "") {
         daten = daten.filter(c =>
             c.id.includes(eingabe) ||
@@ -39,21 +39,21 @@ async function ladeTabelle() {
         );
     }
 
-    /* Preisfilter */
+    
     if (preisMin) daten = daten.filter(c => c.current_price >= preisMin);
     if (preisMax) daten = daten.filter(c => c.current_price <= preisMax);
 
-    /* 24h Änderung */
+   
     if (changeFilter === "pos") daten = daten.filter(c => c.price_change_percentage_24h > 0);
     if (changeFilter === "neg") daten = daten.filter(c => c.price_change_percentage_24h < 0);
 
-    /* Sortierung */
+  
     if (sortOption === "price_desc") daten.sort((a, b) => b.current_price - a.current_price);
     if (sortOption === "price_asc") daten.sort((a, b) => a.current_price - b.current_price);
     if (sortOption === "market_desc") daten.sort((a, b) => b.market_cap - a.market_cap);
     if (sortOption === "market_asc") daten.sort((a, b) => a.market_cap - b.market_cap);
 
-    /* Tabelle aktualisieren */
+    
     const tableBody = document.querySelector("#cryptoTable tbody");
     tableBody.innerHTML = "";
 
@@ -83,7 +83,7 @@ async function ladeTabelle() {
     });
 }
 
-/* Diagramm laden – bleibt API-basiert (korrekt) */
+
 function ladeDiagramm(days) {
     const coin = document.getElementById("coinInput").value.toLowerCase();
     if (!coin) return alert("Bitte einen Coin eingeben!");
@@ -138,9 +138,9 @@ function ladeDiagramm(days) {
         });
 }
 
-/* Live-Suche nutzt jetzt auch den lokalen Cache */
+
 async function eingabeGeändert() {
-    await ladeCoinsVonAPI(); // lädt nur beim ersten Mal
+    await ladeCoinsVonAPI(); 
 
     const wert = document.getElementById("coinInput").value.trim().toLowerCase();
     const dropdown = document.getElementById("searchResults");
@@ -173,3 +173,19 @@ async function eingabeGeändert() {
 window.onload = () => {
     ladeTabelle();
 };
+
+
+
+const toggle = document.getElementById("themeToggle");
+
+toggle.onclick = () => {
+    document.body.classList.toggle("dark");
+    localStorage.setItem(
+        "theme",
+        document.body.classList.contains("dark") ? "dark" : "light"
+    );
+};
+
+if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+}
