@@ -114,15 +114,16 @@ Heute habe ich endlich einen Filter programmiert. Der Benutzer kann nun bestimmt
 
 ## 19.12
 
-- [ ] Ein Logo für die Webseite.(z.B. ein bitcoin)
-- [ ] Die gleiche Farbe wie das Logo verwänden, für Buttons etc. damit die Webseite nicht so langweilig mit nur weiss aussieht.
-- [ ] Es gibt ein Button für den Benutzer der die Website hell oder dunkel auswählen kann.
+- [X] Ein Logo für die Webseite.(z.B. ein bitcoin)
+- [X] Die gleiche Farbe wie das Logo verwänden, für Buttons etc. damit die Webseite nicht so langweilig mit nur weiss aussieht.
+- [X] Es gibt ein Button für den Benutzer der die Website hell oder dunkel auswählen kann.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
-
+Heute habe ich die letzten Arbeitspakete dieser Lernperiode abgeschlossen. Ich bin endlich fertig mit meinem Projekt und sehr zufrieden mit dem Ergebnis. Der Nutzer kann den Hintergrund der Webseite zwischen Schwarz und Weiss wechseln. Meine Webseite hat jetzt ein Logo (Bitcoin). Ausserdem habe ich etwas Orange in die Webseite eingebaut, damit die Farben zum Logo passen.
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
 
 
 
