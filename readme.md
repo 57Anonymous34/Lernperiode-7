@@ -128,6 +128,38 @@ Heute habe ich die letzten Arbeitspakete dieser Lernperiode abgeschlossen. Ich b
 
 
 
+## Mein fertiges Projekt
+
+
+
+
+
+
+https://github.com/user-attachments/assets/7584f2b9-8860-4ba1-a711-8d90f3246886
+
+
+
+
+
+
+## Beschreibung
+
+In meinem Projekt habe ich eine Webseite erstellt, auf der es um Kryptowährungen geht. Auf der Startseite sieht man eine Tabelle mit den bekanntesten Kryptowährungen. Dort werden der Preis, die Grösse des Marktes und die Veränderung innerhalb eines Tages angezeigt. Der Nutzer kann nach einer bestimmten Kryptowährung suchen oder sie direkt aus der Tabelle auswählen.
+
+Zusätzlich zeigt die Webseite einen Verlauf des Preises über verschiedene Zeiträume, zum Beispiel über einen Tag, eine Woche oder ein Jahr. Es gibt auch Möglichkeiten, die Liste zu filtern und zu sortieren, damit man schneller findet, was man sucht. Außerdem kann man das Design der Webseite zwischen hell und dunkel wechseln, was die Nutzung angenehmer macht.
+
+
+## Reflexion
+
+Diese Lernperiode war für mich nicht immer einfach, da ich mein Projekt mehrmals ändern musste. Am Anfang wollte ich mit der Spotify- oder SoundCloud API arbeiten, doch wegen technischen Schwierigkeiten war das nicht möglich. Das war zuerst enttäuschend, aber ich habe gemerkt, dass es besser ist, ein Projekt zu wählen, das realistisch umsetzbar ist.
+
+Mit dem Krypto Projekt konnte ich dann konzentrierter arbeiten und viele Fortschritte machen. Ich habe gelernt, wie man APIs benutzt, Daten darstellt und eine Webseite benutzerfreundlicher gestaltet. Besonders wichtig war für mich, dass am Ende alles funktioniert und übersichtlich ist. Insgesamt habe ich in dieser Lernperiode viel dazugelernt und bin mit dem Resultat zufrieden.
+
+
+
+
+
+
 
 
 
